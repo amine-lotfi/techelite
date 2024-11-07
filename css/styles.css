@@ -157,6 +157,7 @@ nav {
     font-weight: 600;
     padding: 0.5rem;
     border-radius: 0.3rem;
+    transition: ease-in-out 0.4s;
     border: none;
     outline: none;
 }
@@ -165,7 +166,6 @@ nav {
     background-color: var(--main-color);
     color: var(--text-color);
     transform: translate(2rem);
-    transition: ease-in-out 0.4s;
 }
 
 /* mobile navbar toggler styles */
@@ -322,6 +322,7 @@ footer small {
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    z-index: -1;
 }
 
 .custom-shape-divider-bottom-1706216331 svg {
